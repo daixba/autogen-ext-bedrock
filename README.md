@@ -1,10 +1,11 @@
-# AutoGen Extension for Amazon Bedrock
+# AutoGen Extension for Amazon Bedrock (experimental)
 
+An quick experimental implementation of AutoGen Model extension for Amazon Bedrock models. Feel free to clone it and customize yourself.
 
 ## Installation
 
 ```bash
-pip install autogen-ext-bedrock
+pip install git+https://github.com/daixba/autogen-ext-bedrock.git
 ```
 
 ## Quick Start
@@ -35,3 +36,10 @@ async def main() -> None:
 
 asyncio.run(main())
 ```
+
+
+## Known Issues
+
+- Vision is not yet supported
+- Token usage is not validated
+- This model client doesn't work well in `Swarm` mode due to the mess of conversation history
