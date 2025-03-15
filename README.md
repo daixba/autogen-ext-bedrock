@@ -1,12 +1,17 @@
 # AutoGen Extension for Amazon Bedrock (experimental)
 
-An quick experimental implementation of AutoGen Model extension for Amazon Bedrock models. Feel free to clone it and customize yourself.
+A quick implementation of AutoGen Model extension for Amazon Bedrock models. It's expected it may not work well in some cases, you may retry with a different model but that doesn't work everytime. 
+
+Feel free to clone it and customize it yourself.
 
 ## Installation
 
 ```bash
 pip install git+https://github.com/daixba/autogen-ext-bedrock.git
 ```
+
+Or you can clone it to your local and then run `pip install -e .`.
+
 
 ## Quick Start
 
